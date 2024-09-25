@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+* {
+	color: #0f0067;
+}
+
+div {
+	color: black;
+}
+
+#history,
+#resource,
+#ukrainians,
+#facts {
+	color: red;
+}
+
+[class*="v-l"] {
+	color: rgb(0, 144, 0);
+}
+
+div.footer {
+	color: black;
+}
+
+.text.section-1 {
+	color: chartreuse;
+}
+
+.title.headline {
+	color: black;
+}
+
+.text p {
+	color: rgb(114, 0, 132);
+}
