@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+* {
+	color: #2600ff;
+}
+
+div {
+	color: rgba(0, 0, 0, 0.421);
+}
+
+#history,
+#resource,
+#ukrainians,
+#facts {
+	color: red;
+}
+
+[class*="v-l"] {
+	color: rgb(0, 144, 0);
+}
+
+div.footer {
+	color: rgb(90, 255, 1);
+}
+
+.title.headline {
+	color: rgb(158, 0, 0);
+}
+
+.text p {
+	color: rgb(215, 0, 248);
+}
+
+.footer .footer-info {
+	color: rgb(195, 111, 0);
+}
+
+.footer-validator-0 * {
+	color: red;
+}
+
+.text>p {
+	color: black;
+}
+
+.footer-validator-0~div {
+	color: red;
+}
+
+.footer+p {
+	color: rgba(0, 0, 255, 0.524);
+}
