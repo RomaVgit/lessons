@@ -1,0 +1,127 @@
+@import url("reset.css");
+@import url("fonts.css");
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 800;
+	color: rgb(0, 0, 190);
+	text-shadow: 4px 4px 7px rgb(98, 95, 0);
+	line-height: 4;
+	white-space: nowrap;
+}
+
+.nav {
+	text-align: center;
+	text-transform: uppercase;
+	color: rgb(1, 121, 115);
+	font-weight: 700;
+	text-shadow: 3px 3px 5px rgb(98, 95, 0);
+	line-height: 2;
+}
+
+.sub-title {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: rgb(217, 70, 70);
+	line-height: 1.5;
+	/* text-shadow: 0px 0px 5px black; */
+}
+
+.ukraine {
+	text-transform: capitalize;
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	text-decoration-color: blue;
+	color: rgb(98, 98, 255);
+	text-decoration-thickness: 5px;
+	text-underline-offset: 8px;
+	letter-spacing: 8px;
+	font-weight: 900;
+}
+
+.line-through {
+	font-style: italic;
+	text-decoration: line-through;
+	text-decoration-color: red;
+}
+
+.lowercase {
+	text-transform: lowercase;
+}
+
+.thickness {
+	text-decoration-thickness: initial;
+}
+
+p {
+	line-height: 2;
+	word-spacing: 10px;
+}
+
+.oblique {
+	font-style: oblique;
+}
+
+.text-1 {
+	font-family: "Work Sans", sans-serif;
+}
+
+.title-professional {
+	font-weight: 600;
+	font-size: 38px;
+	font-style: normal;
+	line-height: 50px;
+	color: #132238;
+}
+
+.professional {
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 24px;
+	color: #556070;
+}
+
+.text-2 {
+	font-family: "DM Sans", sans-serif;
+}
+
+.title-about {
+	font-size: 88px;
+	font-weight: 700;
+	font-style: normal;
+	color: #1E1B39;
+	line-height: 95px;
+}
+
+.about {
+	font-size: 24px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 42px;
+	columns: #474464;
+}
+
+.text-3 {
+	font-family: "Roboto", sans-serif;
+}
+
+.title-introduce {
+	font-size: 50px;
+	font-weight: 500;
+	font-style: normal;
+	line-height: 66px;
+	letter-spacing: 1px;
+	color: #091133;
+}
+
+.introduce {
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color: #505F98;
+}
