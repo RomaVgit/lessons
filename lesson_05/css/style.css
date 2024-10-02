@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("fonts.css");
+@import url("reset.css");
+
+.wrap-1 {
+	margin-inline: auto;
+	max-inline-size: 1596px;
+	font-family: "Manrope", sans-serif;
+	background-color: #141414;
+	color: #fff;
+	margin-block-end: 80px;
+}
+
+.title-1 {
+	font-size: 38px;
+	font-weight: 700;
+	line-height: 57px;
+}
+
+.style-sub-title {
+	font-size: 18px;
+	color: #999;
+	line-height: 27px;
+}
+
+.sub-title-1 {
+	margin-block-end: 80px;
+}
+
+.cards {
+	margin-inline: -15px;
+	font-size: 0;
+}
+
+.card {
+	inline-size: 33.333%;
+	display: inline-block;
+	margin-block-end: 30px;
+	padding-inline: 15px;
+}
+
+.card-content {
+	background-color: #0f0f0f;
+	padding: 50px;
+}
+
+.card-name {
+	font-size: 24px;
+	display: inline-block;
+}
+
+.img-1 {
+	vertical-align: -26px;
+	margin-inline-end: 16px;
+}
+
+.card-type {
+	margin-block-end: 30px;
+}
+
+.wrap-2 {
+	font-family: "Roboto", sans-serif;
+	max-width: 540px;
+	margin: 0 auto;
+	margin-bottom: 80px;
+}
+
+.title-2 {
+	font-size: 50px;
+	font-weight: 500;
+	line-height: 66px;
+	letter-spacing: 1px;
+	color: #091133;
+	margin-bottom: 20px;
+}
+
+.sub-title-2 {
+	font-size: 18px;
+	line-height: 30px;
+	color: #505F98;
+	margin-bottom: 66px;
+}
+
+.sub-title-2 p {
+	margin-bottom: 14px;
+}
+
+.buttons {
+	max-width: 408px;
+	margin: 0 auto;
+	font-size: 0;
+}
+
+.button {
+	display: inline-block;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #fff;
+	background-color: #111b47;
+	padding: 5px 40px;
+	margin-right: 28px;
+}
+
+.white {
+	padding: 2px 2px;
+}
+
+.button-in {
+	background-color: #fff;
+	color: #091133;
+	padding: 3px 38px;
+}
+
+.wrap-3 {
+	font-family: "Roboto", sans-serif;
+	inline-size: 520px;
+	margin-inline: auto;
+}
+
+.title-3 {
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 48px;
+	color: #091133;
+	margin-block-end: 16px;
+}
+
+.sub-title-3 {
+	line-height: 26px;
+	color: #6F7CB2;
+	margin-block-end: 70px;
+}
+
+.sub-title-3 p {
+	margin-block-end: 10px;
+}
+
+.card-3 img {
+	margin-block-end: 14px;
+}
+
+.card-3 h3 {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	color: #091133;
+	margin-block-end: 6px;
+}
+
+.card-3 p {
+	font-size: 12px;
+	line-height: 18px;
+	color: #5D6970;
+}
+
+.cards-3 {
+	margin-inline: -15px;
+	font-size: 0;
+}
+
+.card-3 {
+	inline-size: 50%;
+	display: inline-block;
+	padding-inline: 15px;
+	margin-block-end: 32px;
+}
