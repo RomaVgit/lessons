@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,800&display=swap");
+@import url("reset.css");
+
+body {
+	color: #fff;
+}
+
+.wrapper {
+	min-block-size: 100%;
+	overflow: hidden;
+}
+
+.dark-theme-website {
+	color: #fff;
+	background-color: #141414;
+	padding-block-end: 200px;
+}
+
+.container-dark-theme {
+	max-width: 1627px;
+	margin-inline: auto;
+	padding-inline: 15px;
+}
+
+.dark-theme {
+	block-size: 860px;
+	background: url("../img/AbstractDesign.svg") center / 470px no-repeat,
+		linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%),
+		linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%),
+		url("../img/SubContainer2.png") center 16px / 1920px no-repeat fixed,
+		url("../img/SubContainer3.png") center / 1920px no-repeat scroll;
+}
+
+.container-dark-theme {
+	margin-block-start: -62px;
+	text-align: center;
+}
+
+.title-dark-theme {
+	font-family: "Manrope", sans-serif;
+	text-align: center;
+	font-size: 58px;
+	font-weight: 700;
+	line-height: 150%;
+	margin-block-end: 14px;
+}
+
+.sub-tile-dark-theme {
+	font-family: "Manrope", sans-serif;
+	font-size: 18px;
+	line-height: 150%;
+	color: #999;
+	max-inline-size: 1096px;
+	text-align: center;
+	margin-inline: auto;
+	margin-block-end: 50px;
+}
+
+.button {
+	padding: 18px 24px 18px 56px;
+	background: #e20000 url("../img/arrow.svg") 24px / 28px no-repeat;
+	border-radius: 8px;
+	text-align: center;
+	font-family: "Manrope", sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	line-height: 150%;
+}
+
+.portfolio-template {
+	padding-block-start: 190px;
+	font-family: "Epilogue", sans-serif;
+	background-color: #FDF0E9;
+	color: #391400;
+}
+
+.container-portfolio-template {
+	max-inline-size: 1170px;
+	margin-inline: auto;
+}
+
+.content-portfolio-template {
+	max-inline-size: 470px;
+	display: inline-block;
+}
+
+h2 {
+	line-height: 200%;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	color: #EF6D58;
+	margin-block-end: 20px;
+}
+
+.title-portfolio-template {
+	font-size: 56px;
+	font-weight: 800;
+	line-height: 114.3%;
+	letter-spacing: -1px;
+	margin-block-end: 26px;
+}
+
+.sub-title-portfolio-template {
+	font-size: 20px;
+	line-height: 160%;
+	margin-block-end: 24px;
+}
+
+.list {
+	line-height: 200%;
+	color: rgba(57, 20, 0, 0.64);
+}
+
+.list li {
+	background: url("../img/check.svg") 0 0 / 32px no-repeat;
+	padding-inline-start: 48px;
+	margin-block-end: 16px;
+	min-height: 32px;
+}
+
+.footer {
+	font-size: 100px;
+}
