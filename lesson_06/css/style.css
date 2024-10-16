@@ -18,7 +18,7 @@ body {
 .dark-theme-website {
 	color: #fff;
 	background-color: #141414;
-	padding-block-end: 200px;
+	padding-block-end: 150px;
 }
 
 .container-dark-theme {
@@ -32,8 +32,8 @@ body {
 	background: url("../img/abstract.svg") center / 470px no-repeat,
 		linear-gradient(180deg, #141414 0%, rgba(20, 20, 20, 0.00) 100%),
 		linear-gradient(180deg, rgba(20, 20, 20, 0.00) 0%, #141414 100%),
-		url("../img/SubContainer2.png") center 16px / 1920px no-repeat fixed,
-		url("../img/SubContainer3.png") center / 1920px no-repeat scroll;
+		url("../img/sub_container2.png") center 16px / 1920px no-repeat fixed,
+		url("../img/sub_container3.png") center / 1920px no-repeat scroll;
 }
 
 .container-dark-theme {
@@ -70,10 +70,13 @@ body {
 	font-size: 18px;
 	font-weight: 600;
 	line-height: 150%;
+	text-transform: capitalize;
 }
 
+/* ========================== portfolio-template ============================= */
+
 .portfolio-template {
-	padding-block: 190px;
+	padding-block: 150px;
 	font-family: "Epilogue", sans-serif;
 	background-color: #FDF0E9;
 	color: #391400;
@@ -91,10 +94,18 @@ body {
 	max-inline-size: 470px;
 	display: inline-block;
 	font-size: 16px;
+	margin-inline-end: 171px;
 }
 
-.container-portfolio-template img {
-	padding-inline-start: 171px;
+.img-portfolio-template {
+	font-size: 16px;
+	display: inline-block;
+	max-inline-size: 529px;
+	vertical-align: top;
+}
+
+.img-portfolio-template img {
+	width: 100%;
 }
 
 h2 {
@@ -111,6 +122,7 @@ h2 {
 	line-height: 114.3%;
 	letter-spacing: -1px;
 	margin-block-end: 26px;
+	text-transform: capitalize;
 }
 
 .sub-title-portfolio-template {
