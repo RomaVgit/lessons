@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:regular,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular,700&display=swap");
+@import url("reset.css");
+
+body {
+	background-color: #141414;
+	color: white;
+}
+
+.wrappeer {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+/* ========================= timeline ======================== */
+
+.timeline {
+	padding-block-start: 106px 0px;
+	padding-inline: 15px;
+	font-family: "DM Sans", sans-serif;
+	background-color: #fff;
+	color: #4A3AFF;
+	padding-block: 100px;
+}
+
+.container-timeline {
+	max-width: 920px;
+	margin-inline: auto;
+}
+
+.items-timeline {
+	counter-reset: list-counter;
+	font-size: 0px;
+}
+
+.item-timeline::before {
+	counter-increment: list-counter;
+	content: counter(list-counter, decimal-leading-zero) " ";
+	display: inline-block;
+	margin-right: 42px;
+	background-color: #edebff;
+	width: 218px;
+	height: 218px;
+	border-radius: 50%;
+	text-align: center;
+	padding-top: 65px;
+	font-size: 88px;
+	font-weight: 700;
+}
+
+.item-timeline:not(:last-child) {
+	margin-block-end: 54px;
+}
+
+.items-timeline li:nth-child(1) h2::after {
+	content: '';
+	background: url("../img/magnifying-glass.png") right / 42px 42px no-repeat;
+	width: 47px;
+	height: 42px;
+}
+
+.items-timeline li:nth-child(2) h2::after {
+	content: '';
+	background: url("../img/notebook.png") right / 42px 42px no-repeat;
+	width: 47px;
+	height: 42px;
+}
+
+.items-timeline li:nth-child(3) h2::after {
+	content: '';
+	background: url("../img/roket.png") right / 42px 42px no-repeat;
+	width: 47px;
+	height: 42px;
+}
+
+.content-timeline {
+	font-size: 16px;
+	display: inline-block;
+	max-inline-size: 630px;
+	vertical-align: bottom;
+	padding-bottom: 21px;
+}
+
+.content-timeline>* {
+	margin-block-end: 8px;
+}
+
+.content-timeline div {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 110%;
+	color: #4A3AFF;
+}
+
+.content-timeline h2 {
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 128.57%;
+	color: #1E1B39;
+}
+
+.content-timeline p {
+	font-size: 24px;
+	line-height: 175%;
+	color: #6E6C83;
+}
+
+.content-timeline>*:last-child {
+	margin-block-end: 0;
+}
+
+.items-timeline h2:nth-of-type(2) {
+	color: red;
+}
+
+/* ========================= prising ======================== */
+
+.pricing {
+	font-family: "DM Sans", sans-serif;
+	background-color: #fff;
+	color: #1E1B39;
+	padding-block: 100px;
+}
+
+.container-pricing {
+	inline-size: 543px;
+	margin-inline: auto;
+}
+
+.background-pricing {
+	background-color: #f0f0f6;
+	padding: 24px 24px 58px 24px;
+	border-radius: 56px;
+}
+
+.block-pricing {
+	color: #fff;
+	width: 495px;
+	text-align: center;
+	display: inline-block;
+	background-color: #4a3aff;
+	padding: 45px 145px;
+	border-radius: 34px;
+	margin-block-end: 34px;
+}
+
+.title-pricing {
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 106.66%;
+	margin-block-end: 2px;
+}
+
+.price-pricing {
+	font-size: 116px;
+	font-weight: 700;
+	line-height: 103.44%;
+	margin-block-end: 6px;
+}
+
+.sub-title-pricing {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 110%;
+}
+
+.list-pricing {
+	padding-inline-start: 13px;
+}
+
+.list-pricing li {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 135.71%;
+}
+
+.list-pricing li:not(:last-child) {
+	margin-block-end: 26px;
+}
+
+.list-pricing li::before {
+	content: '';
+	background: url("../img/сheck_blue.svg") left / 38px no-repeat;
+	width: 38px;
+	height: 38px;
+	vertical-align: middle;
+	margin-inline-end: 14px;
+}
+
+/* ========================= agency ======================== */
+
+.agency {
+	font-family: "Epilogue", sans-serif;
+	background-color: #fdf0e9;
+	padding-block: 100px;
+}
+
+.container-agency {
+	max-inline-size: 970px;
+	margin-inline: auto;
+}
+
+.bitmap {
+	max-inline-size: 970px;
+	margin-block-end: 74px;
+}
+
+.bitmap img {
+	max-inline-size: 100%;
+}
+
+.content-pricing {
+	color: rgba(57, 20, 0, 0.64);
+	line-height: 200%;
+	/* Питання. Другий контейнер, це допустимо в одному блоці?
+	Контейнер в контейнері вийшло. Так можна будувати? */
+	inline-size: 570px;
+	margin-inline: auto;
+}
+
+.content-pricing>* {
+	margin-block-end: 35px;
+}
+
+.content-pricing>*:first-child {
+	font-size: 20px;
+	line-height: 160%;
+	color: #391400;
+}
+
+.content-pricing p:first-of-type {
+	margin-block-end: 50px;
+}
+
+.content-pricing h2:first-of-type {
+	font-style: 24px;
+	font-weight: 700;
+	line-height: 133.33%;
+	color: #391400;
+}
+
+.content-pricing ul li::before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #ef6d58;
+	vertical-align: middle;
+	margin-inline-end: 16px;
+}
+
+.content-pricing li {
+	color: #391400;
+	/* line-height: 200%; */
+}
+
+.content-pricing p:nth-of-type(3) {
+	margin-block-end: 65px;
+}
+
+.content-pricing h2:last-of-type {
+	font-style: 24px;
+	font-weight: 700;
+	line-height: 133.33%;
+	color: #391400;
+}
+
+.content-pricing ol {
+	counter-reset: list-counter;
+}
+
+.content-pricing p:nth-child(5n) {
+	margin-block-end: 69px;
+}
+
+.content-pricing ol li::before {
+	counter-increment: list-counter;
+	content: counter(list-counter)". ";
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.content-pricing div:nth-last-child(2) {
+	font-size: 20px;
+	line-height: 160%;
+	color: #391400;
+	background-color: #F9E5DA;
+	padding: 42px 32px 32px 112px;
+	margin-block-end: 76px;
+}
+
+.content-pricing div:nth-last-child(2)::before {
+	content: '';
+	background: url(../img/Shape.svg) left / 48px no-repeat;
+	width: 48px;
+	height: 36px;
+	margin-inline-start: -84px;
+	vertical-align: bottom;
+	margin-inline-end: 32px;
+}
+
+.content-pricing>*:last-child {
+	margin-block-end: 0;
+	/* чи обовязково в таких випадках вказувати px? */
+}
