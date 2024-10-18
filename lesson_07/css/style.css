@@ -15,7 +15,6 @@ body {
 /* ========================= timeline ======================== */
 
 .timeline {
-	padding-block-start: 106px 0px;
 	padding-inline: 15px;
 	font-family: "DM Sans", sans-serif;
 	background-color: #fff;
@@ -233,7 +232,7 @@ body {
 }
 
 .content-pricing h2:first-of-type {
-	font-style: 24px;
+	font-size: 24px;
 	font-weight: 700;
 	line-height: 133.33%;
 	color: #391400;
@@ -259,7 +258,7 @@ body {
 }
 
 .content-pricing h2:last-of-type {
-	font-style: 24px;
+	font-size: 24px;
 	font-weight: 700;
 	line-height: 133.33%;
 	color: #391400;
