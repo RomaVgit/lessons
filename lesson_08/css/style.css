@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Epilogue:regular&display=swap");
+@import url("reset.css");
+
+body {
+	font-family: "Epilogue", sans-serif;
+	background-color: #5a5a5a;
+	color: white;
+}
+
+.page {
+	color: rgb(0, 0, 0);
+}
+
+.container {
+	max-inline-size: 1220px;
+	margin-inline: auto;
+	padding-inline: 15px;
+}
+
+.img {
+	margin-inline-end: 40px;
+}
+
+img {
+	width: 100%;
+}
+
+.bitmap-p {
+	padding: 10px;
+}
+
+.block {
+	background-color: #bdbdbd;
+	margin-block-end: 20px;
+	padding: 10px;
+	border-radius: 6px;
+}
+
+.img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.img-background-1 {
+	background: url('../img/decor/shape.svg') center / 100px no-repeat;
+	width: 100px;
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-inline-end: 40px;
+}
+
+.img-background-2 {
+	background: url('../img/decor/path.svg') center / 282px no-repeat;
+	width: 282px;
+	height: 242px;
+	display: inline-block;
+	vertical-align: middle;
+	margin-inline-end: 40px;
+}
+
+p {
+	display: inline-block;
+}
+
+.block {
+	text-align: center;
+}
