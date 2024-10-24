@@ -17,6 +17,10 @@ body {
 	padding-inline: 15px;
 }
 
+.container .block:not(:last-child) {
+	margin-block-end: 20px;
+}
+
 .img {
 	margin-inline-end: 40px;
 }
@@ -36,7 +40,6 @@ img {
 
 .block {
 	background-color: #bdbdbd;
-	margin-block-end: 20px;
 	padding: 10px;
 	border-radius: 6px;
 }
