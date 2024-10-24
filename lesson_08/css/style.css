@@ -25,6 +25,11 @@ img {
 	width: 100%;
 }
 
+.bitmap {
+	border-radius: 6px;
+	overflow: hidden;
+}
+
 .bitmap-p {
 	padding: 10px;
 }
@@ -39,6 +44,8 @@ img {
 .img {
 	display: inline-block;
 	vertical-align: middle;
+	border-radius: 6px;
+	overflow: hidden;
 }
 
 .img-background-1 {
